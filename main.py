@@ -6,4 +6,5 @@ print(current_time)
 a = 1
 b = 22
 c = 333
-result = lambda d: a + b + c
+result = lambda: a + b + c
+print(result())
