@@ -14,3 +14,4 @@ class Person:
     pass
 
 man = Person()
+woman = Person()
