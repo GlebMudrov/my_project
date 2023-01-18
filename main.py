@@ -12,3 +12,5 @@ print(result())
 
 class Person:
     pass
+
+man = Person()
