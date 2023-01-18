@@ -8,3 +8,7 @@ b = 22
 c = 333
 result = lambda: a + b + c
 print(result())
+
+
+class Person:
+    pass
