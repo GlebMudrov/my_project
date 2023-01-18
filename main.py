@@ -10,8 +10,17 @@ result = lambda: a + b + c
 print(result())
 
 
+class PowerMixin:
+    power = 1000000
+
+
 class Person:
+    pass
+
+
+class Superman(Person, PowerMixin):
     pass
 
 man = Person()
 woman = Person()
+clark = Superman()
